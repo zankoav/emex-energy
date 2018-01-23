@@ -1,0 +1,27 @@
+$green: #afbd31;
+
+$h1-font: 58px/62px "OpenSansCondensedItalic", arial, verdana, sans-serif;
+$h2-font: 36px/40px "OpenSansCondensedItalic", arial, verdana, sans-serif;
+$h3-font: 24px/28px "OpenSansCondensedItalic", arial, verdana, sans-serif;
+$p-font: 16px/22px "OpenSansCondensedNormal", arial, verdana, sans-serif;
+
+h1 {
+    font: $h1-font;
+}
+
+h2 {
+    font: $h2-font;
+}
+
+h3 {
+    font: $h3-font;
+}
+
+p {
+    font: $p-font;
+}
+
+@import "fonts";
+@import "mixins";
+
+
