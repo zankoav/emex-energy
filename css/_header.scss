@@ -1,0 +1,90 @@
+
+.home .navbar-brand {
+    opacity: 0.7;
+}
+
+header {
+
+    .custom-logo {
+        width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        color: $green;
+        font: 32px/30px "LatoBlack", arial, verdana, sans-serif;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font: 16px/20px "LatoRegular", arial, verdana, sans-serif;
+    }
+
+    span, a {
+        font: 14px/18px "LatoRegular", arial, verdana, sans-serif;
+    }
+
+    .contacts {
+        a {
+            font-weight: bold;
+            padding-left: 15px;
+            color: black;
+            text-decoration: underline;
+            &:hover {
+                color: $green;
+                text-decoration: none;
+            }
+        }
+    }
+
+    h2, h3, span {
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        a {
+            display: block;
+            padding: 0 20px;
+        }
+    }
+
+    .header-banner {
+        width: 80%;
+        padding-left: 10%;
+    }
+
+    nav.navbar {
+        background-color: $green;
+        @include border-radius(6px);
+
+        .navbar-brand {
+            padding-left: 1rem;
+            color: white;
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+
+        li {
+            display: block;
+            padding: 0.5rem 0rem;
+            a {
+                color: white;
+                padding: 1rem 1rem;
+                text-transform: uppercase;
+                font: 1rem "LatoLight", arial, verdana, sans-serif;
+                &:hover {
+                    opacity: 0.7;
+                    text-decoration: none;
+                }
+            }
+
+            &.current-menu-item a {
+                opacity: 0.7;
+            }
+        }
+    }
+}
