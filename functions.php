@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . '/inc/func.php';
+
 /**
  * Поддержка миниатюр
  **/
@@ -17,3 +18,4 @@ register_nav_menus(array(
  * Подключение скриптов
  */
 add_action('wp_enqueue_scripts', 'emx_scripts');
+

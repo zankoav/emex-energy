@@ -8,4 +8,6 @@
         sint tenetur velit veniam vitae voluptas voluptatem. Ab accusamus accusantium aliquam aliquid aspernatur
         assumenda at autem consequatur debitis delectus deleniti dicta dolore dolores ducimus enim error ex explicabo
     </p>
+
+
 <?php get_footer(); ?>
