@@ -23,5 +23,3 @@ add_action('after_setup_theme', 'emx_setup');
  * Добавление секций на сайт в панель настроек
  */
 add_action('customize_register', 'emx_customize_register');
-
-

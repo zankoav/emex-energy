@@ -121,3 +121,7 @@ function emx_scripts()
     wp_enqueue_script('bootstrap4', get_template_directory_uri() . '/js/bootstrap4/bootstrap.bundle.min.js', array(), null, true);
     wp_enqueue_script('bundle', get_template_directory_uri() . '/js/bundle.js', array(), null, true);
 }
+
+function emx_currentYear( $atts ){
+    return date('Y');
+}

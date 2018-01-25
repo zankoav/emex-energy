@@ -1,0 +1,38 @@
+footer {
+    .container {
+        font-size: 0.7rem;
+        font-family: "LatoRegular", arial, verdana, sans-serif;
+        .footer_menu {
+            li {
+                padding-right: 0.5rem;
+                text-transform: uppercase;
+
+                a {
+                    color: black;
+                    text-decoration: underline;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+        }
+
+        &:before {
+            content: '';
+            display: block;
+            height: 1px;
+            background-color: black;
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            height: 2px;
+            background-color: black;
+        }
+
+    }
+}
+
