@@ -1,27 +1,13 @@
 $green: #afbd31;
-
-$h1-font: 58px/62px "OpenSansCondensedItalic", arial, verdana, sans-serif;
-$h2-font: 36px/40px "OpenSansCondensedItalic", arial, verdana, sans-serif;
-$h3-font: 24px/28px "OpenSansCondensedItalic", arial, verdana, sans-serif;
-$p-font: 16px/22px "OpenSansCondensedNormal", arial, verdana, sans-serif;
-
-h1 {
-    font: $h1-font;
-}
-
-h2 {
-    font: $h2-font;
-}
-
-h3 {
-    font: $h3-font;
-}
-
-p {
-    font: $p-font;
-}
+$blue: #0064a3;
+$h1-font: 58px/62px "LatoBoldItalic", arial, verdana, sans-serif;
+$h2-font: 36px/40px "LatoBoldItalic", arial, verdana, sans-serif;
+$h3-font: 24px/28px "LatoBoldItalic", arial, verdana, sans-serif;
+$p-font: 16px/22px "LatoRegular", arial, verdana, sans-serif;
 
 @import "fonts";
 @import "mixins";
+@import "header";
+@import "page";
 
 

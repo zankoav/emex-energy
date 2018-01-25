@@ -3,11 +3,6 @@
 require __DIR__ . '/inc/func.php';
 
 /**
- * Поддержка миниатюр
- **/
-add_theme_support('post-thumbnails');
-
-/**
  * Подключение меню
  **/
 register_nav_menus(array(
@@ -18,4 +13,15 @@ register_nav_menus(array(
  * Подключение скриптов
  */
 add_action('wp_enqueue_scripts', 'emx_scripts');
+
+/**
+ * Добавление логотипа из панели настроек
+ */
+add_action('after_setup_theme', 'emx_setup');
+
+/**
+ * Добавление секций на сайт в панель настроек
+ */
+add_action('customize_register', 'emx_customize_register');
+
 
