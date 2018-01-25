@@ -60,6 +60,10 @@ header {
         background-color: $green;
         @include border-radius(6px);
 
+        .navbar-toggler {
+            outline: none;
+        }
+
         .navbar-brand {
             padding-left: 1rem;
             color: white;

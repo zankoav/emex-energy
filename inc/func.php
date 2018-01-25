@@ -86,7 +86,7 @@ function emx_setup()
 {
     load_theme_textdomain('emx');
 
-    set_post_thumbnail_size(600, 400);
+    set_post_thumbnail_size(1920, 400);
 
     add_theme_support('title-tag');
 
